@@ -6,5 +6,5 @@
 SELECT r.RouteID, a1.AirportCode AS origem, a2.AirportCode AS destino
 FROM route r, airport a1, airport a2
 WHERE r.Origin = a1.AirportID AND r.Destination = a2.AirportID
-ORDER BY origem, destino
+ORDER BY origem, destino;
 -- A declaracao de r nao e necessaria

@@ -4,4 +4,4 @@
 SELECT AirportCode, AirportName
 FROM airport
 WHERE CountryCode = 'ES'
-ORDER BY AirportCode
+ORDER BY AirportCode;

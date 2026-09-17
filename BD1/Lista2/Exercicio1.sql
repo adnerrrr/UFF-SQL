@@ -3,4 +3,4 @@
 -- (PaxName)
 SELECT *
 FROM pax
-ORDER BY PaxName
+ORDER BY PaxName;

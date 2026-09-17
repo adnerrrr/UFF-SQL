@@ -7,4 +7,4 @@
 SELECT RouteID, a1.AirportCode AS origem, a2.AirportCode AS destino
 FROM route, airport a1, airport a2
 WHERE Origin = a1.AirportID AND Destination = a2.AirportID
-ORDER BY origem DESC, destino DESC
+ORDER BY origem DESC, destino DESC;

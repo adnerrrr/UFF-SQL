@@ -3,4 +3,4 @@
 -- que operam num avião da Airbus (tabela aircrafttype)
 SELECT FlightID, AircraftName
 FROM flight, aircrafttype
-WHERE AircraftName LIKE 'Airbus%'
+WHERE AircraftName LIKE 'Airbus%';
